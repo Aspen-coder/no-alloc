@@ -7,6 +7,7 @@
 /home/aspen/projects/no-alloc/build/tests/unit/CMakeFiles/test_vector.dir
 /home/aspen/projects/no-alloc/build/tests/unit/CMakeFiles/test_ring_buffer.dir
 /home/aspen/projects/no-alloc/build/tests/unit/CMakeFiles/test_static_string.dir
+/home/aspen/projects/no-alloc/build/tests/unit/CMakeFiles/test_algorithms.dir
 /home/aspen/projects/no-alloc/build/tests/unit/CMakeFiles/test.dir
 /home/aspen/projects/no-alloc/build/tests/unit/CMakeFiles/edit_cache.dir
 /home/aspen/projects/no-alloc/build/tests/unit/CMakeFiles/rebuild_cache.dir

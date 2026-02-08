@@ -168,6 +168,44 @@ test_static_string/fast:
 	cd /home/aspen/projects/no-alloc/build && $(MAKE) $(MAKESILENT) -f tests/unit/CMakeFiles/test_static_string.dir/build.make tests/unit/CMakeFiles/test_static_string.dir/build
 .PHONY : test_static_string/fast
 
+# Convenience name for target.
+tests/unit/CMakeFiles/test_algorithms.dir/rule:
+	cd /home/aspen/projects/no-alloc/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/unit/CMakeFiles/test_algorithms.dir/rule
+.PHONY : tests/unit/CMakeFiles/test_algorithms.dir/rule
+
+# Convenience name for target.
+test_algorithms: tests/unit/CMakeFiles/test_algorithms.dir/rule
+.PHONY : test_algorithms
+
+# fast build rule for target.
+test_algorithms/fast:
+	cd /home/aspen/projects/no-alloc/build && $(MAKE) $(MAKESILENT) -f tests/unit/CMakeFiles/test_algorithms.dir/build.make tests/unit/CMakeFiles/test_algorithms.dir/build
+.PHONY : test_algorithms/fast
+
+test_algorithms.o: test_algorithms.cpp.o
+.PHONY : test_algorithms.o
+
+# target to build an object file
+test_algorithms.cpp.o:
+	cd /home/aspen/projects/no-alloc/build && $(MAKE) $(MAKESILENT) -f tests/unit/CMakeFiles/test_algorithms.dir/build.make tests/unit/CMakeFiles/test_algorithms.dir/test_algorithms.cpp.o
+.PHONY : test_algorithms.cpp.o
+
+test_algorithms.i: test_algorithms.cpp.i
+.PHONY : test_algorithms.i
+
+# target to preprocess a source file
+test_algorithms.cpp.i:
+	cd /home/aspen/projects/no-alloc/build && $(MAKE) $(MAKESILENT) -f tests/unit/CMakeFiles/test_algorithms.dir/build.make tests/unit/CMakeFiles/test_algorithms.dir/test_algorithms.cpp.i
+.PHONY : test_algorithms.cpp.i
+
+test_algorithms.s: test_algorithms.cpp.s
+.PHONY : test_algorithms.s
+
+# target to generate assembly for a file
+test_algorithms.cpp.s:
+	cd /home/aspen/projects/no-alloc/build && $(MAKE) $(MAKESILENT) -f tests/unit/CMakeFiles/test_algorithms.dir/build.make tests/unit/CMakeFiles/test_algorithms.dir/test_algorithms.cpp.s
+.PHONY : test_algorithms.cpp.s
+
 test_ring_buffer.o: test_ring_buffer.cpp.o
 .PHONY : test_ring_buffer.o
 
@@ -249,9 +287,13 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... test_algorithms"
 	@echo "... test_ring_buffer"
 	@echo "... test_static_string"
 	@echo "... test_vector"
+	@echo "... test_algorithms.o"
+	@echo "... test_algorithms.i"
+	@echo "... test_algorithms.s"
 	@echo "... test_ring_buffer.o"
 	@echo "... test_ring_buffer.i"
 	@echo "... test_ring_buffer.s"

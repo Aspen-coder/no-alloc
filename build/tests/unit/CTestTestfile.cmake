@@ -10,3 +10,5 @@ add_test([=[RingBufferTest]=] "/home/aspen/projects/no-alloc/build/tests/unit/te
 set_tests_properties([=[RingBufferTest]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/aspen/projects/no-alloc/tests/unit/CMakeLists.txt;12;add_test;/home/aspen/projects/no-alloc/tests/unit/CMakeLists.txt;0;")
 add_test([=[StaticStringTest]=] "/home/aspen/projects/no-alloc/build/tests/unit/test_static_string")
 set_tests_properties([=[StaticStringTest]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/aspen/projects/no-alloc/tests/unit/CMakeLists.txt;17;add_test;/home/aspen/projects/no-alloc/tests/unit/CMakeLists.txt;0;")
+add_test([=[AlgorithmsTest]=] "/home/aspen/projects/no-alloc/build/tests/unit/test_algorithms")
+set_tests_properties([=[AlgorithmsTest]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/aspen/projects/no-alloc/tests/unit/CMakeLists.txt;22;add_test;/home/aspen/projects/no-alloc/tests/unit/CMakeLists.txt;0;")

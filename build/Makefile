@@ -165,6 +165,19 @@ test_static_string/fast:
 	$(MAKE) $(MAKESILENT) -f tests/unit/CMakeFiles/test_static_string.dir/build.make tests/unit/CMakeFiles/test_static_string.dir/build
 .PHONY : test_static_string/fast
 
+#=============================================================================
+# Target rules for targets named test_algorithms
+
+# Build rule for target.
+test_algorithms: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_algorithms
+.PHONY : test_algorithms
+
+# fast build rule for target.
+test_algorithms/fast:
+	$(MAKE) $(MAKESILENT) -f tests/unit/CMakeFiles/test_algorithms.dir/build.make tests/unit/CMakeFiles/test_algorithms.dir/build
+.PHONY : test_algorithms/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -174,6 +187,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... test_algorithms"
 	@echo "... test_ring_buffer"
 	@echo "... test_static_string"
 	@echo "... test_vector"

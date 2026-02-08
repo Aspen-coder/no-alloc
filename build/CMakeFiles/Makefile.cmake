@@ -54,4 +54,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "tests/unit/CMakeFiles/test_vector.dir/DependInfo.cmake"
   "tests/unit/CMakeFiles/test_ring_buffer.dir/DependInfo.cmake"
   "tests/unit/CMakeFiles/test_static_string.dir/DependInfo.cmake"
+  "tests/unit/CMakeFiles/test_algorithms.dir/DependInfo.cmake"
   )

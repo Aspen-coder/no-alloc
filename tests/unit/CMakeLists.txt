@@ -16,4 +16,9 @@ add_executable(test_static_string test_static_string.cpp)
 target_link_libraries(test_static_string PRIVATE no_alloc)
 add_test(NAME StaticStringTest COMMAND test_static_string)
 
+# --- Algorithms Test ---
+add_executable(test_algorithms test_algorithms.cpp)
+target_link_libraries(test_algorithms PRIVATE no_alloc)
+add_test(NAME AlgorithmsTest COMMAND test_algorithms)
+
 

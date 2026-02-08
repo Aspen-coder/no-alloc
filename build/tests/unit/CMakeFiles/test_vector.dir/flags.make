@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/aspen/projects/no-alloc/include
 
-CXX_FLAGS = -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -fno-exceptions -fno-rtti
+CXX_FLAGS = -std=c++23 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -fno-exceptions -fno-rtti
 
