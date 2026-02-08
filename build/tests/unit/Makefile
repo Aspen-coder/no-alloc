@@ -140,6 +140,82 @@ test_vector/fast:
 	cd /home/aspen/projects/no-alloc/build && $(MAKE) $(MAKESILENT) -f tests/unit/CMakeFiles/test_vector.dir/build.make tests/unit/CMakeFiles/test_vector.dir/build
 .PHONY : test_vector/fast
 
+# Convenience name for target.
+tests/unit/CMakeFiles/test_ring_buffer.dir/rule:
+	cd /home/aspen/projects/no-alloc/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/unit/CMakeFiles/test_ring_buffer.dir/rule
+.PHONY : tests/unit/CMakeFiles/test_ring_buffer.dir/rule
+
+# Convenience name for target.
+test_ring_buffer: tests/unit/CMakeFiles/test_ring_buffer.dir/rule
+.PHONY : test_ring_buffer
+
+# fast build rule for target.
+test_ring_buffer/fast:
+	cd /home/aspen/projects/no-alloc/build && $(MAKE) $(MAKESILENT) -f tests/unit/CMakeFiles/test_ring_buffer.dir/build.make tests/unit/CMakeFiles/test_ring_buffer.dir/build
+.PHONY : test_ring_buffer/fast
+
+# Convenience name for target.
+tests/unit/CMakeFiles/test_static_string.dir/rule:
+	cd /home/aspen/projects/no-alloc/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/unit/CMakeFiles/test_static_string.dir/rule
+.PHONY : tests/unit/CMakeFiles/test_static_string.dir/rule
+
+# Convenience name for target.
+test_static_string: tests/unit/CMakeFiles/test_static_string.dir/rule
+.PHONY : test_static_string
+
+# fast build rule for target.
+test_static_string/fast:
+	cd /home/aspen/projects/no-alloc/build && $(MAKE) $(MAKESILENT) -f tests/unit/CMakeFiles/test_static_string.dir/build.make tests/unit/CMakeFiles/test_static_string.dir/build
+.PHONY : test_static_string/fast
+
+test_ring_buffer.o: test_ring_buffer.cpp.o
+.PHONY : test_ring_buffer.o
+
+# target to build an object file
+test_ring_buffer.cpp.o:
+	cd /home/aspen/projects/no-alloc/build && $(MAKE) $(MAKESILENT) -f tests/unit/CMakeFiles/test_ring_buffer.dir/build.make tests/unit/CMakeFiles/test_ring_buffer.dir/test_ring_buffer.cpp.o
+.PHONY : test_ring_buffer.cpp.o
+
+test_ring_buffer.i: test_ring_buffer.cpp.i
+.PHONY : test_ring_buffer.i
+
+# target to preprocess a source file
+test_ring_buffer.cpp.i:
+	cd /home/aspen/projects/no-alloc/build && $(MAKE) $(MAKESILENT) -f tests/unit/CMakeFiles/test_ring_buffer.dir/build.make tests/unit/CMakeFiles/test_ring_buffer.dir/test_ring_buffer.cpp.i
+.PHONY : test_ring_buffer.cpp.i
+
+test_ring_buffer.s: test_ring_buffer.cpp.s
+.PHONY : test_ring_buffer.s
+
+# target to generate assembly for a file
+test_ring_buffer.cpp.s:
+	cd /home/aspen/projects/no-alloc/build && $(MAKE) $(MAKESILENT) -f tests/unit/CMakeFiles/test_ring_buffer.dir/build.make tests/unit/CMakeFiles/test_ring_buffer.dir/test_ring_buffer.cpp.s
+.PHONY : test_ring_buffer.cpp.s
+
+test_static_string.o: test_static_string.cpp.o
+.PHONY : test_static_string.o
+
+# target to build an object file
+test_static_string.cpp.o:
+	cd /home/aspen/projects/no-alloc/build && $(MAKE) $(MAKESILENT) -f tests/unit/CMakeFiles/test_static_string.dir/build.make tests/unit/CMakeFiles/test_static_string.dir/test_static_string.cpp.o
+.PHONY : test_static_string.cpp.o
+
+test_static_string.i: test_static_string.cpp.i
+.PHONY : test_static_string.i
+
+# target to preprocess a source file
+test_static_string.cpp.i:
+	cd /home/aspen/projects/no-alloc/build && $(MAKE) $(MAKESILENT) -f tests/unit/CMakeFiles/test_static_string.dir/build.make tests/unit/CMakeFiles/test_static_string.dir/test_static_string.cpp.i
+.PHONY : test_static_string.cpp.i
+
+test_static_string.s: test_static_string.cpp.s
+.PHONY : test_static_string.s
+
+# target to generate assembly for a file
+test_static_string.cpp.s:
+	cd /home/aspen/projects/no-alloc/build && $(MAKE) $(MAKESILENT) -f tests/unit/CMakeFiles/test_static_string.dir/build.make tests/unit/CMakeFiles/test_static_string.dir/test_static_string.cpp.s
+.PHONY : test_static_string.cpp.s
+
 test_vector.o: test_vector.cpp.o
 .PHONY : test_vector.o
 
@@ -173,7 +249,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... test_ring_buffer"
+	@echo "... test_static_string"
 	@echo "... test_vector"
+	@echo "... test_ring_buffer.o"
+	@echo "... test_ring_buffer.i"
+	@echo "... test_ring_buffer.s"
+	@echo "... test_static_string.o"
+	@echo "... test_static_string.i"
+	@echo "... test_static_string.s"
 	@echo "... test_vector.o"
 	@echo "... test_vector.i"
 	@echo "... test_vector.s"

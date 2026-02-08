@@ -139,6 +139,32 @@ test_vector/fast:
 	$(MAKE) $(MAKESILENT) -f tests/unit/CMakeFiles/test_vector.dir/build.make tests/unit/CMakeFiles/test_vector.dir/build
 .PHONY : test_vector/fast
 
+#=============================================================================
+# Target rules for targets named test_ring_buffer
+
+# Build rule for target.
+test_ring_buffer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_ring_buffer
+.PHONY : test_ring_buffer
+
+# fast build rule for target.
+test_ring_buffer/fast:
+	$(MAKE) $(MAKESILENT) -f tests/unit/CMakeFiles/test_ring_buffer.dir/build.make tests/unit/CMakeFiles/test_ring_buffer.dir/build
+.PHONY : test_ring_buffer/fast
+
+#=============================================================================
+# Target rules for targets named test_static_string
+
+# Build rule for target.
+test_static_string: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_static_string
+.PHONY : test_static_string
+
+# fast build rule for target.
+test_static_string/fast:
+	$(MAKE) $(MAKESILENT) -f tests/unit/CMakeFiles/test_static_string.dir/build.make tests/unit/CMakeFiles/test_static_string.dir/build
+.PHONY : test_static_string/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -148,6 +174,8 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... test_ring_buffer"
+	@echo "... test_static_string"
 	@echo "... test_vector"
 .PHONY : help
 

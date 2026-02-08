@@ -94,6 +94,8 @@ tests/clean: tests/unit/clean
 
 # Recursive "all" directory target.
 tests/unit/all: tests/unit/CMakeFiles/test_vector.dir/all
+tests/unit/all: tests/unit/CMakeFiles/test_ring_buffer.dir/all
+tests/unit/all: tests/unit/CMakeFiles/test_static_string.dir/all
 .PHONY : tests/unit/all
 
 # Recursive "preinstall" directory target.
@@ -102,6 +104,8 @@ tests/unit/preinstall:
 
 # Recursive "clean" directory target.
 tests/unit/clean: tests/unit/CMakeFiles/test_vector.dir/clean
+tests/unit/clean: tests/unit/CMakeFiles/test_ring_buffer.dir/clean
+tests/unit/clean: tests/unit/CMakeFiles/test_static_string.dir/clean
 .PHONY : tests/unit/clean
 
 #=============================================================================
@@ -111,7 +115,7 @@ tests/unit/clean: tests/unit/CMakeFiles/test_vector.dir/clean
 tests/unit/CMakeFiles/test_vector.dir/all:
 	$(MAKE) $(MAKESILENT) -f tests/unit/CMakeFiles/test_vector.dir/build.make tests/unit/CMakeFiles/test_vector.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/unit/CMakeFiles/test_vector.dir/build.make tests/unit/CMakeFiles/test_vector.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/aspen/projects/no-alloc/build/CMakeFiles --progress-num=1,2 "Built target test_vector"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/aspen/projects/no-alloc/build/CMakeFiles --progress-num=5,6 "Built target test_vector"
 .PHONY : tests/unit/CMakeFiles/test_vector.dir/all
 
 # Build rule for subdir invocation for target.
@@ -129,6 +133,58 @@ test_vector: tests/unit/CMakeFiles/test_vector.dir/rule
 tests/unit/CMakeFiles/test_vector.dir/clean:
 	$(MAKE) $(MAKESILENT) -f tests/unit/CMakeFiles/test_vector.dir/build.make tests/unit/CMakeFiles/test_vector.dir/clean
 .PHONY : tests/unit/CMakeFiles/test_vector.dir/clean
+
+#=============================================================================
+# Target rules for target tests/unit/CMakeFiles/test_ring_buffer.dir
+
+# All Build rule for target.
+tests/unit/CMakeFiles/test_ring_buffer.dir/all:
+	$(MAKE) $(MAKESILENT) -f tests/unit/CMakeFiles/test_ring_buffer.dir/build.make tests/unit/CMakeFiles/test_ring_buffer.dir/depend
+	$(MAKE) $(MAKESILENT) -f tests/unit/CMakeFiles/test_ring_buffer.dir/build.make tests/unit/CMakeFiles/test_ring_buffer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/aspen/projects/no-alloc/build/CMakeFiles --progress-num=1,2 "Built target test_ring_buffer"
+.PHONY : tests/unit/CMakeFiles/test_ring_buffer.dir/all
+
+# Build rule for subdir invocation for target.
+tests/unit/CMakeFiles/test_ring_buffer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aspen/projects/no-alloc/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/unit/CMakeFiles/test_ring_buffer.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aspen/projects/no-alloc/build/CMakeFiles 0
+.PHONY : tests/unit/CMakeFiles/test_ring_buffer.dir/rule
+
+# Convenience name for target.
+test_ring_buffer: tests/unit/CMakeFiles/test_ring_buffer.dir/rule
+.PHONY : test_ring_buffer
+
+# clean rule for target.
+tests/unit/CMakeFiles/test_ring_buffer.dir/clean:
+	$(MAKE) $(MAKESILENT) -f tests/unit/CMakeFiles/test_ring_buffer.dir/build.make tests/unit/CMakeFiles/test_ring_buffer.dir/clean
+.PHONY : tests/unit/CMakeFiles/test_ring_buffer.dir/clean
+
+#=============================================================================
+# Target rules for target tests/unit/CMakeFiles/test_static_string.dir
+
+# All Build rule for target.
+tests/unit/CMakeFiles/test_static_string.dir/all:
+	$(MAKE) $(MAKESILENT) -f tests/unit/CMakeFiles/test_static_string.dir/build.make tests/unit/CMakeFiles/test_static_string.dir/depend
+	$(MAKE) $(MAKESILENT) -f tests/unit/CMakeFiles/test_static_string.dir/build.make tests/unit/CMakeFiles/test_static_string.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/aspen/projects/no-alloc/build/CMakeFiles --progress-num=3,4 "Built target test_static_string"
+.PHONY : tests/unit/CMakeFiles/test_static_string.dir/all
+
+# Build rule for subdir invocation for target.
+tests/unit/CMakeFiles/test_static_string.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aspen/projects/no-alloc/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/unit/CMakeFiles/test_static_string.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aspen/projects/no-alloc/build/CMakeFiles 0
+.PHONY : tests/unit/CMakeFiles/test_static_string.dir/rule
+
+# Convenience name for target.
+test_static_string: tests/unit/CMakeFiles/test_static_string.dir/rule
+.PHONY : test_static_string
+
+# clean rule for target.
+tests/unit/CMakeFiles/test_static_string.dir/clean:
+	$(MAKE) $(MAKESILENT) -f tests/unit/CMakeFiles/test_static_string.dir/build.make tests/unit/CMakeFiles/test_static_string.dir/clean
+.PHONY : tests/unit/CMakeFiles/test_static_string.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
