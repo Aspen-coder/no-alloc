@@ -1,0 +1,10 @@
+/home/aspen/projects/no-alloc/build/CMakeFiles/test.dir
+/home/aspen/projects/no-alloc/build/CMakeFiles/edit_cache.dir
+/home/aspen/projects/no-alloc/build/CMakeFiles/rebuild_cache.dir
+/home/aspen/projects/no-alloc/build/tests/CMakeFiles/test.dir
+/home/aspen/projects/no-alloc/build/tests/CMakeFiles/edit_cache.dir
+/home/aspen/projects/no-alloc/build/tests/CMakeFiles/rebuild_cache.dir
+/home/aspen/projects/no-alloc/build/tests/unit/CMakeFiles/test_vector.dir
+/home/aspen/projects/no-alloc/build/tests/unit/CMakeFiles/test.dir
+/home/aspen/projects/no-alloc/build/tests/unit/CMakeFiles/edit_cache.dir
+/home/aspen/projects/no-alloc/build/tests/unit/CMakeFiles/rebuild_cache.dir
